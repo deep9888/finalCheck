@@ -54,6 +54,13 @@ html, body {
     left: 1px;
     z-index: 10;
   }
+
+  #my-gui-errorReport {
+    position: absolute;
+    top: 350px;
+    left: 1px;
+    z-index: 10;
+  }
   
   #my-gui-color {
     position: absolute;
