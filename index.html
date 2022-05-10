@@ -32,30 +32,6 @@
         </div> 
       </div>
       </main>
-      <script type="text/x-handlebars-template" id="report-toggle-template">
-        <div class="report-toggle level-{{issues.maxSeverity}}">
-          <div class="report-toggle-text">
-            {{#if issues}}
-              {{#if issues.numErrors }}
-                {{issues.numErrors}} errors.
-              {{else if issues.numWarnings}}
-                {{issues.numWarnings}} warnings.
-              {{else if issues.numHints}}
-                {{issues.numHints}} hints.
-              {{else if issues.numInfos}}
-                {{issues.numInfos}} notes.
-              {{else}}
-                Model details
-              {{/if}}
-            {{else if reportError}}
-              Validation could not run: {{reportError}}.
-            {{else}}
-              Validation could not run.
-            {{/if}}
-          </div>
-          <div class="report-toggle-close" aria-label="Hide">&times;</div>
-        </div>
-      </script>
 <script type="module" src="Bundle.js"></script>  
   </body>
 </html>
