@@ -57,6 +57,8 @@ html, body {
 
   #my-gui-errorReport {
     position: absolute;
+    background-color: #f0f0f0;
+    color: 'red';
     top: 350px;
     left: 1px;
     z-index: 10;
