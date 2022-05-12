@@ -324,3 +324,26 @@ html, body {
     text-align: center;
   }
   
+#my-gui-errorReport .property-name{
+  color: #b10026;
+  text-shadow: none !important;
+  font-weight:900;
+  font: bold 50px;
+}
+#my-gui-errorReport .c{
+  color: #b10026;
+  text-shadow: none !important;
+  font-weight:900;
+}
+#my-gui-errorReport input, select, textarea{
+  color: #ff0000;
+  font-weight: 900;
+}
+#my-gui-report input, select, textarea{
+  color: #bebff7;
+  font-weight: 900;
+}
+#my-gui-container input, select, textarea{
+  color: #bebff7;
+  font-weight: 900;
+}
