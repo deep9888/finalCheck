@@ -40,7 +40,7 @@ html, body {
   }
   #my-gui-glb {
     position: absolute;
-    top: 140px;
+    top: 210px;
     right: 1px;
     z-index: 10;
   }
@@ -66,7 +66,7 @@ html, body {
   
   #my-gui-color {
     position: absolute;
-    top: 200px;
+    top: 270px;
     right: 1px;
     z-index: 10;
   }
@@ -79,18 +79,18 @@ html, body {
 
   #my-gui-material {
     position: absolute;
-    top: 330px;
+    top: 400px;
     right: 1px;
     z-index: 10;
   }
 
-  
+/*   
   #my-gui-shadows {
     position: absolute;
-    top: 410px;
+    top: 460px;
     right: 1px;
     z-index: 10;
-  }
+  } */
 
   #left{
     width: 20vh;
@@ -98,17 +98,56 @@ html, body {
   }
   
   .placeholder {
+    border: 4px dashed rgb(70, 70, 255);
+    height: 50%;
     width: 100%;
     max-width: 500px;
     border-radius: 0.5em;
     background: #EEE;
     padding: 2em;
-    text-align: center;
+  }
+  #width{
+    position:absolute;
+    width:5%;
+    top:5px;
+    left:45%;
+  }
+  #height{
+    position:absolute;
+    top:5px;
+    left:54%;
+    width: 5%;
+  }
+  #widthText{
+    position: absolute;
+    top: 5px;
+    left:41.5%;
+  }
+  #heightText{
+    position: absolute;
+    top: 5px;
+    left:50.5%;
+  }
+  p {
+    display: block;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+ }
+
+  #screenshot{
+    position: absolute;
+    width:8%;
+    margin-left: 60%;
+    margin-top: 5px;
   }
   
   .placeholder p {
+    padding-top: 50%;
     font-size: 1.2rem;
     color: #999;
+    text-align: center;
   }
   
   .viewer {
