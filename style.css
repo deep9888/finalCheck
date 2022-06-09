@@ -504,11 +504,11 @@ html, body {
 }
 #my-gui-report input, select, textarea{
   color: #ffffff;
-  font-weight: 900;
+  font-weight: 200;
 }
 #my-gui-container input, select, textarea{
   color: #ffffff;
-  font-weight: 900;
+  font-weight: 200;
 }
 #my-gui-hdri input, select, textarea{
   color: #010101;
@@ -517,16 +517,17 @@ html, body {
 #my-gui-material input, li, select, textarea{
   color: #ffffff;
   font-weight: 900;
+  font-size: 14px;
 }
 #my-gui-material select{
   color: #000000;
-  font-weight: 900;
+  font-weight: 200;
 }
 #my-gui-glb select{
   color: #000000;
-  font-weight: 900;
+  font-weight: 200;
 }
 #my-gui-hdri select{
   color: #000000;
-  font-weight: 900;
+  font-weight: 200;
 }
