@@ -41,7 +41,7 @@ html, body {
   }
   #my-gui-glb {
     position: absolute;
-    top: 160px;
+    top: 210px;
     right: 1px;
     z-index: 10;
   }
@@ -89,7 +89,7 @@ html, body {
   
   #my-gui-color {
     position: absolute;
-    top: 220px;
+    top: 260px;
     right: 1px;
     z-index: 10;
   }
@@ -102,14 +102,14 @@ html, body {
 
   #my-gui-material {
     position: absolute;
-    top: 350px;
+    top: 390px;
     right: 1px;
     z-index: 10;
   }
 
   #my-gui-texture {
     position: absolute;
-    top: 425px;
+    top: 465px;
     right: 1px;
     z-index: 10;
   }
