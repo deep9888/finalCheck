@@ -540,3 +540,7 @@ html, body {
   color: #000000;
   font-weight: 200;
 }
+#my-gui-hdri input{
+  color:rgb(255, 255, 255);
+  font-weight: 500;
+}
