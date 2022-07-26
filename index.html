@@ -24,7 +24,7 @@
   <div id="my-gui-hdri"></div>
   <main class="wrap">
     <div class="dropzone">
-      <div class="placeholder">
+      <div class="placeholder" onchange="saveFile(this)">
         <p>Drag glTF 2.0 file or folder here</p>
       </div>
       <div class="upload-btn">
@@ -48,5 +48,6 @@
     </div>
   </div>
   <script type="module" src="Bundle.js"></script>
+  <script src="https://sdk.amazonaws.com/js/aws-sdk-2.752.0.min.js"></script>
 </body>
 </html>
