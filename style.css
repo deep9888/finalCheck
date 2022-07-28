@@ -1,3 +1,5 @@
+@import 'https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.6.0/yeti/bootstrap.min.css';
+
 html,
 body {
   margin: 0;
@@ -103,6 +105,12 @@ body {
 #my-gui-hdri {
   position: absolute;
   top: 1px;
+  right: 1px;
+  z-index: 10;
+}
+#my-gui-fetch {
+  position: absolute;
+  bottom: 10%;
   right: 1px;
   z-index: 10;
 }
@@ -350,6 +358,11 @@ textarea {
   font-weight: 200;
 }
 
+#my-gui-fetch select{
+  color: #000000;
+  font-weight: 200;
+}
+
 #my-gui-hdri input,
 select,
 textarea {
@@ -447,6 +460,12 @@ textarea {
   right: 2.5%;
   display: none;
 }
+#save{
+  position: absolute;
+  bottom: 50%;
+  right: 2.5%;
+  display: none;
+}
 /* CSS */
 .button-65 {
   appearance: none;
@@ -508,4 +527,9 @@ textarea {
   .button-65 {
     width: 120px;
   }
+}
+
+
+form label {
+  cursor: pointer;
 }
